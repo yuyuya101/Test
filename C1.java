@@ -18,7 +18,7 @@ public class CollatzConjecture {
             } else {
                 n = 3 * n + 1;
             }
-            // 如果n超过了1024，说明这个数不满足卡拉兹猜想  1234567
+            // 如果n超过了1024，说明这个数不满足卡拉兹猜想  12345678
             if (n > 1024) {
                 return false;
             }
